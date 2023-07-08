@@ -61,7 +61,8 @@ def get_photo():
     else:
         for file in files:
             if (file["name"] == filename):
-                link = f'https://drive.google.com/file/d/{file["id"]}/view'
+                link = f'https://drive.google.com/uc?id={file["id"]}'
+                # link = f'https://drive.google.com/file/d/{file["id"]}/view'
                 return jsonify([{filename: link}])
         return jsonify({'error': f'{filename} not found'}), 404
 

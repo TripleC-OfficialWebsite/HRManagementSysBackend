@@ -100,7 +100,7 @@ def remove_member(fullname):
     delete_secret = secret.delete_one(query)
     
     if result.deleted_count == 1:
-        assert delete_secret == 1
+        assert delete_secret.deleted_count == 1
         return jsonify({'success': f'Member {fullname} deleted successfully'}), 200
 
     return jsonify({'error': f'Member {fullname} not found'}), 404

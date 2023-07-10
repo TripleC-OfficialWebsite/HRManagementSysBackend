@@ -64,7 +64,7 @@ def get(title=None, active_type="active"):
         if project:
             return jsonify([project])
         
-        return jsonify({'error': f'project {project} not found'}), 404
+        return jsonify({'error': f'Project {title} not found'}), 404
     else:
         data = list(project_collection.find({"type": active_type}, {"_id": 0}))
         return jsonify(data)

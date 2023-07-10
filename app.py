@@ -6,6 +6,7 @@ from pymongo.server_api import ServerApi
 # from member import memberAPI
 import admin
 import member
+import project
 import requests
 
 # imports for google drive api
@@ -17,6 +18,7 @@ app = Flask(__name__)
 
 app.register_blueprint(admin.adminAPI)
 app.register_blueprint(member.memberAPI)
+app.register_blueprint(project.projectAPI)
 
 
 uri = "mongodb+srv://root:28GJiZtTYasykeil@cluster0.4lirrab.mongodb.net/?retryWrites=true&w=majority"

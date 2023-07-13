@@ -1,0 +1,149 @@
+{
+    "Label": {
+      "type": "past",
+      "title": "Label Cluster",
+      "slogan": "",
+      "timeline": "",
+      "description": "LabelCluster是由一群来自美国UC系(加州大学)院校的留学生组成的年轻团队,团队成员均为UCSD(加州大学圣地亚哥分校)、UCI(加州大学尔湾分校)等学校在读学生。我们致力于运用专业的技术为艺术创作者提供更好、更直观的互联网服务平台。LabelCluster目前与TripleC_UCSD合作,由后者提供软件开发等帮助与支持。",
+      "techStack": [
+        "React Native",
+        "Django",
+        "ThreeJS",
+        "Blender",
+        "Blockchain/Smart Contract"
+      ],
+      "pictures": ["./Images/Projects/LC_1.png"],
+      "links": {
+        "demo": "https://aws-test.dt3d50lzmfrhk.amplifyapp.com/about",
+        "repo": "",
+        "contact": "labelcluster@gmail.com"
+      }
+    },
+    "MapSocial": {
+      "type": "active",
+      "title": "Map Social",
+      "slogan": "",
+      "timeline": "./Images/Projects/MS_timeline.png",
+      "description": "Map Social is a social app connecting people through shared activities and events. The app features a dynamic map interface that displays events created by contacts and makes it easy for users to create their own. From lunch outings to sports games to board game nights, Map Social simplifies the process of connecting with friends and having fun.\nThe app prioritizes simplicity, privacy, and safety, ensuring a secure and user-friendly environment. The event creation process is straightforward, allowing users to quickly invite friends or open up an event to requests. Map Social aims to help people overcome the difficulties of busy schedules and bring people together for meaningful, fun experiences.\nInitially aimed at college students, the plan is to eventually expand the platform to everyone. The team is dedicated to making Map Social a comprehensive social solution for people of all ages and interests. Whether you're a student, a professional, or simply looking for new ways to socialize, Map Social is the perfect solution.\nThe project is in its early stages and seeking motivated designers and developers to join the team. If you're passionate about making a positive impact on people's social lives and want to work on a cutting-edge social app, this is your chance. Help shape the future of socializing and join the Map Social team today.",
+      "techStack": [
+        "React Native",
+        "Google Maps Platform",
+        "Firebase",
+        "Javascript"
+      ],
+      "pictures": [
+        "./Images/Projects/MS_1.png",
+        "./Images/Projects/MS_2.png",
+        "./Images/Projects/MS_3.png"
+      ],
+      "links": {
+        "demo": "",
+        "repo": "",
+        "contact": ""
+      }
+    },
+    "GoalTritons": {
+      "title": "Goal Tritons",
+      "type": "active",
+      "slogan": "",
+      "timeline": "",
+      "description": "Goal Tritons is a non-profit B to C product aimed at supporting UCSD Undergraduates, including F-1 International Students, in their career-finding process. It is a responsive informational website that will provide undergraduates a smooth experience in developing professional path and approaching career goal.",
+      "techStack": [
+        "Vue",
+        "Node.js",
+        "AWS S3 & Route 53",
+        "CI",
+        "SpringBoot",
+        "MySQL"
+      ],
+      "pictures": ["./Images/Projects/GT_1.png", "./Images/Projects/GT_2.png"],
+      "links": {
+        "demo": "Beta release in Spring Quarter",
+        "repo": "",
+        "contact": "contact@goaltritonscareer.com"
+      }
+    },
+    "WeRide": {
+      "type": "active",
+      "title": "WeRide",
+      "slogan": "",
+      "timeline": "",
+      "description": "Daily, thousands of off-campus students at UCSD face massive commuting barriers. The list includes long commutes, expensive parking passes, near-impossible-to-find parking, and the insane rates of current rideshare services. WeRide is a carpool application that seeks to make commuting to campus cheaper, safer, and more convenient. For the drivers, the system will match them with riders on their way to school, they will be paid by the application for the calculated gas money and other small costs. For riders, the system will show them the brief profile of student drivers for them to select on the route to school. The cost will be much lower than uber/lyft and faster than waiting for shuttles/trains.",
+      "techStack": ["Spring"],
+      "pictures": ["./Images/Projects/WR_1.jpg"],
+      "links": {
+        "demo": "",
+        "repo": "https://github.com/ChaohaoDu/weRide-backend",
+        "contact": ""
+      }
+    },
+    "Defit": {
+      "type": "past",
+      "title": "Defit",
+      "slogan": "",
+      "timeline": "",
+      "description": "Defit is an English reading/learning tool that can translate long paragraphs based on the user’s English level. The levels that are currently available are high school, CET 4, CET6, TOEFL, and GRE. Users can select their reading proficiency level, and Defit will translate the vocabularies that are hard to understand or beyond their comprehension level through its algorithm’s own predictions. Defit uses text overlay design to show definitions of unknown vocabularies directly on top of the words. As a result, a smooth reading experience that promotes vocabulary learning is guaranteed. Users can thus read without any interruption or relocation.",
+      "techStack": [
+        "React.js",
+        "Flask",
+        "TensorFlow",
+        "SQL",
+        "Git/Node/RESTful API"
+      ],
+      "pictures": ["./Images/Projects/DF_1.png"],
+      "links": {
+        "demo": "https://drive.google.com/file/d/1R32hfrYbVEv0JpD0f_Y8gSlfmD4z5X63/view?usp=sharing",
+        "repo": "",
+        "contact": ""
+      }
+    },
+    "HousingDashboard": {
+      "type": "past",
+      "title": "Housing Dashboard",
+      "slogan": "",
+      "timeline": "",
+      "description": "Housing Dashboard is a comprehensive tool that provides a clear overview of the housing market, including housing stock, average rent prices, and key metrics. With a visually appealing and intuitive format, the dashboard offers valuable insights into the current state of the housing market, including market trends and fluctuations in rent prices over time. A demo of the website is available at https://housingdashboard.org/. The tool provides valuable information to help users make informed decisions in the housing market.",
+      "techStack": [
+        "JavaScript",
+        "React.js",
+        "Google Maps API",
+        "MongoDB",
+        "Python & Flask"
+      ],
+      "pictures": ["./Images/Projects/HD_1.png"],
+      "links": {
+        "demo": "https://housingdashboard.org/",
+        "repo": "https://github.com/AlanXZhang/Housing-DashBoard-Web",
+        "contact": ""
+      }
+    },
+    "CutiePet": {
+      "type": "past",
+      "title": "CutiePet",
+      "slogan": "Meet Cute Pets Online",
+      "timeline": "",
+      "description": "CutiePet is a social mobile app built for all pet owners and pet lovers. Our goal is to help our users build a warm and lovely community with other pet lovers nearby. On our app, you can meet new people who like your pets, share happy moments with your pets, and view posts of your friends and their pets.\nWe believe a cohesive pet-lover community would bring more love to the world by sharing the love our pets give to us.\nOur team members are as wonderful as our product. Our experienced product manager, tech lead, and UIUX designer closely collaborated. In 2021, we won the prize in Tencent Product Contest. Recently, we attended an entrepreneurship competition organized by USC and UCLA and obtained favor from YC China.",
+      "techStack": ["AWS", "MongoDB", "React Native"],
+      "pictures": ["./Images/Projects/CP_1.png", "./Images/Projects/CP_2.png"],
+      "links": {
+        "demo": "https://drive.google.com/file/d/1R32hfrYbVEv0JpD0f_Y8gSlfmD4z5X63/view?usp=sharing",
+        "repo": "",
+        "contact": ""
+      }
+    },
+    "NutriPlan": {
+      "type": "active",
+      "title": "NutriPlan",
+      "slogan": "",
+      "timeline": "",
+      "description": "NutriPlan is a comprehensive online platform designed to assist individuals, particularly students, who face difficulties in managing their health and nutrition goals. The platform provides personalized nutrition plans, tailored to users' unique goals, dietary preferences, and health conditions, and includes an interactive meal planner that enables users to plan their meals for the week, complete with user-friendly recipes. A robust database of both healthy recipes and extensive food nutritional data provides users with an easy reference for meal choices that align with their dietary needs and preferences. Key features of the website include a food logging system to track progress, along with a daily nutrient intake tracker. To ensure users stay engaged and committed to their health goals, the platform also sends out regular reminders and notifications for food logging, timed ideally around meal times or at regular intervals throughout the day.",
+      "techStack": ["React.js", "Bootstrap", "Tailwind", "Node", "Express", "Python", "Scikit-learn", "Auth0", "Git"],
+      "pictures": ["./Images/Projects/NP_1.png", "./Images/Projects/NP_2.png"],
+      "links": {
+        "demo": "",
+        "repo": "",
+        "contact": ""
+      }
+    }
+  }
+  

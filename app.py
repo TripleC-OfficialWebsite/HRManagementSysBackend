@@ -42,7 +42,7 @@ db = client.manageSys
 test = db.test
 
 # member_collection = db['member']
-collections = {'admin':admin.admin_collection,'member':member.member_collection}
+collections = {'admin':admin.admin_collection,'member':member.member_collection,'project':project.project_collection}
 
 # get photos with filename
 @app.route("/photo", methods=["get"])

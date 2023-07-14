@@ -18,7 +18,7 @@ url = f'https://www.googleapis.com/drive/v3/files?q=%27{folder_id}%27+in+parents
 client = MongoClient("mongodb+srv://root:28GJiZtTYasykeil@cluster0.4lirrab.mongodb.net/?retryWrites=true&w=majority", tls=True,
                      tlsAllowInvalidCertificates=True)
 db = client.manageSys
-project_collection = db.member
+project_collection = db.project
 
 CORS(projectAPI)
 try:

@@ -34,7 +34,7 @@ def get_photos(title):
     if response.status_code == 404:
         return jsonify({'error': f'project {title} not found'}), 404
 
-    filenames = set(response.get_json()[0]['picture'])
+    filenames = set(response.get_json()[0]['pictures'])
 
     response = requests.get(url)
     files = response.json().get('files', [])
@@ -110,7 +110,7 @@ def remove_member(title):
 def add_project_file():
     data = request.get_json()
     filename = data['filename']
-    with open(filename) as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         projects_data = json.load(f)
         for project in projects_data.values():
             add_project(project)
